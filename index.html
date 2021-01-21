@@ -4,20 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/liveInput2A.js"></script>
-  <script src="js/liveInput2B.js"></script>
-  <script src="js/liveInput2C.js"></script>
   <title>Quadratic Equation Solver</title>
 </head>
 <body>
   <button id="refresh" onclick="location.reload()" onmouseover="changeContent1()" onmouseout="changeContent2()" on>&#8635</button>
-
+  
   <div class="head-container">
     <h1>Quadratic Equation Solver</h1>
     <h2>(ax<sup>2</sup>+bx+c)</h2>
   </div>
   <div id="big-container">
-  <div id="eqnOutput"><span id="eqnOutputA-container"><span id="eqnOutputA"></span>x<sup>2</sup></span><span id="eqnOutputB-container"><span id="eqnOutputB"></span>x</span><span id="eqnOutputC-container"><span id="eqnOutputC"></span></span></div>
+    <div id="eqnOutput"><span id="eqnOutputA-container"><span id="eqnOutputA"></span>x<sup>2</sup></span><span id="eqnOutputB-container"><span id="eqnOutputB"></span>x</span><span id="eqnOutputC-container"><span id="eqnOutputC"></span></span></div>
   <div class="container">
     <div class="input-container">
       <input type="number" name="a-value" id="input1" oninput="preSolveEqnA()" class="a-val" placeholder="a" autofocus>
@@ -103,5 +100,8 @@
       </tr>
     </table>
   </div>
+  <script src="js/qes.js"></script>
+  <script src="js/qesB.js"></script>
+  <script src="js/qesC.js"></script>
 </body>
 </html>
